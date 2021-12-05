@@ -1,0 +1,1 @@
+python detect.py --weights runs/train/exp3/weights/best.pt --img 480 --conf 0.75 --source datasets/ears/images/test/ --line-thickness 1 --save-txt --hide-labels --name Yolo3
